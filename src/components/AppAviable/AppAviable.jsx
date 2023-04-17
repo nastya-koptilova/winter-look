@@ -1,13 +1,12 @@
 import React from "react";
+import s from "./AppAviable.module.scss";
 
 export const AppAviable = () => {
   return (
-    <div>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
-      <p></p>
+    <div className={s.app}>
+      <div className={s.app_apple}></div>
+      <div className={s.app_android}></div>
+      <p className={s.app_description}>App available</p>
     </div>
   );
 };

@@ -1,0 +1,35 @@
+.app {
+  position: relative;
+}
+
+.app_apple,
+.app_android {
+  width: 55.5px;
+  height: 55.5px;
+
+  background: #2d3240;
+  border: 1px solid #e1e3e9;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app_apple {
+  background-image: url("../../../public/assets/images/apple-icon.svg");
+}
+
+.app_android {
+  position: absolute;
+  top: 0;
+  left: 43.5px;
+  background-image: url("../../../public/assets/images/android-icon.svg");
+}
+
+.app_description {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
