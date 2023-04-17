@@ -1,26 +1,27 @@
 import React from "react";
+import s from './Header.module.scss'
 
 export const Header = () => {
   return (
-    <header>
-      <p>landing</p>
+    <header className={s.header}>
+      <p className={s.header__logo}>landing</p>
       <nav>
-        <ul>
-          <li>
+        <ul className={s.header__nav}>
+          <li className={s.header__nav_item}>
             <a href="#">Clothes</a>
           </li>
-          <li>
+          <li className={s.header__nav_item}>
             <a href="#">Sneakers</a>
           </li>
-          <li>
+          <li className={s.header__nav_item}>
             <a href="#">Bags</a>
           </li>
-          <li>
+          <li className={s.header__nav_item}>
             <a href="#">Accessorize</a>
           </li>
         </ul>
       </nav>
-      <div>
+      <div className={s.header__buy}>
         <p>buy</p>
       </div>
     </header>

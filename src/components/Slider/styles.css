@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  padding: 5rem;
+  background-color: #000;
+  color: white;
+  height: 600px;
+  width: 100hw;
+}
+
+.box {
+  background-color: lightblue;
+  height: 300px;
+}
+
+.box h3 {
+  text-align: center;
+}
+
+.slick-slide div {
+    margin: 0 1rem;
+}

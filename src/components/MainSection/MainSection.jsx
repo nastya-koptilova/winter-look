@@ -1,12 +1,14 @@
 import React from "react";
-import { Slider } from "../Slider/Slider";
+import { Caurousel } from "../Slider/Slider";
+
 
 export const MainSection = () => {
+  var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <>
       <section>
         <h2>CHOOSE LOOKS</h2>
-        <Slider />
+        <Caurousel />
       </section>
       <section>
         <h2>MORE ABOUT US</h2>

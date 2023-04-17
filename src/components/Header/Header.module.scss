@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.header__logo {
+  text-transform: uppercase;
+  font-family: "Jomhuria";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+
+  color: #2e3341;
+}
+
+.header__nav {
+  display: flex;
+  gap: 105px;
+
+  & a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+}
+
+.header__buy {
+  position: relative;
+  width: 106px;
+  height: 106px;
+  background: #f54329;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+
+  & p {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(19.5deg) translate(-61%, -31%);
+  }
+}

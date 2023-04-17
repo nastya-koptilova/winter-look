@@ -1,16 +1,11 @@
 import React from "react";
 import { CreateImage } from "../CreateImage/CreateImage";
+import { AppAviable } from "../AppAviable/AppAviable";
 
 export const Hero = () => {
   return (
     <section>
-      <div>
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-        <p></p>
-      </div>
+      <AppAviable/>
       <h1>
         CHOOSE YOUR WINTER <span>LOOK</span> APPAREL
       </h1>
