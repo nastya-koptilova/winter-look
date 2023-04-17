@@ -1,6 +1,6 @@
 import React from "react";
 import { CreateImage } from "../CreateImage/CreateImage";
-import { AppAviable } from "../AppAviable/AppAviable";
+import { AppAviable } from "../App/AppAviable";
 import s from "./Hero.module.scss";
 
 export const Hero = () => {
