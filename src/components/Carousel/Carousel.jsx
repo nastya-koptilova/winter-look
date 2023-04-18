@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import "./CarouselStyles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -25,7 +26,7 @@ export const Carousel = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 4.2,
     slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <NextArrow />,
@@ -48,7 +49,14 @@ export const Carousel = () => {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1.1,
           slidesToScroll: 1,
         },
       },

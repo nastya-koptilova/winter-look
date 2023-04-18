@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import s from "./AppAviable.module.scss";
 
 export const AppAviable = () => {

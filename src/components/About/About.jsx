@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import { Carousel } from "../Carousel/Carousel";
 import s from "./About.module.scss";
 
