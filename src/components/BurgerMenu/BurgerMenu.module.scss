@@ -47,6 +47,11 @@
 
     color: #000000;
 
+    &:hover,
+    :focus {
+      color: #505050;
+    }
+
     @media screen and (max-width: 720px) {
       font-size: 40px;
     }
@@ -60,6 +65,11 @@
   background: #f54329;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
+
+  &:hover,
+  :focus {
+    background: #be3823;
+  }
 
   @media screen and (max-width: 720px) {
     width: 106px;
@@ -80,8 +90,8 @@
     transform: rotate(19.5deg) translate(-61%, -31%);
 
     @media screen and (max-width: 720px) {
-        font-size: 36px;
-    line-height: 40px;
-      }
+      font-size: 36px;
+      line-height: 40px;
+    }
   }
 }

@@ -26,6 +26,11 @@
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+
+  &:hover, :focus {
+    border: 1px solid #506ab1;
+  }
 }
 
 .app_apple {

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import { CreateImage } from "../CreateImage/CreateImage";
 import { AppAviable } from "../App/AppAviable";
 import s from "./Hero.module.scss";
@@ -7,9 +7,7 @@ import s from "./Hero.module.scss";
 export const Hero = () => {
   return (
     <section className={s.hero}>
-      <div className={s.hero__wrapper}>
-        <AppAviable />
-        <motion.h1 initial={{
+      <motion.div initial={{
             x: 1000,
             opacity: 0,
           }}
@@ -20,12 +18,29 @@ export const Hero = () => {
           transition={{
             delay: 0,
             duration: 1.5,
-          }} className={s.hero__title}>
+          }} className={s.hero__wrapper}>
+        <AppAviable />
+        <h1
+          className={s.hero__title}
+        >
           CHOOSE YOUR
-          <br /> WINTER<br /> <span className={s.hero__title_look}>LOOK</span>APPAREL
-        </motion.h1>
+          <br /> WINTER
+          <br />{" "}
+          <motion.span
+            animate={{ rotate: [15, -10, 15] }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className={s.hero__title_look}
+          >
+            LOOK
+          </motion.span>
+          APPAREL
+        </h1>
         <CreateImage />
-      </div>
+      </motion.div>
     </section>
   );
 };

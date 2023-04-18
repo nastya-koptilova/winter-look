@@ -34,3 +34,12 @@
     height: 56px !important;
   }
 }
+
+.slick-arrow::before, ::after {
+  display: none !important;
+}
+
+.slick-arrow:hover,
+:focus {
+  background-color: #efeff0 !important;
+}

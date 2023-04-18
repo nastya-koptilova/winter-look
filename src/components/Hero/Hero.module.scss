@@ -81,7 +81,7 @@
     transform: none;
   }
 
-  &::after {
+  &:after {
     content: "*";
     position: absolute;
     top: -30px;
@@ -97,3 +97,4 @@
     }
   }
 }
+
