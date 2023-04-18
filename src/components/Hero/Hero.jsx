@@ -27,9 +27,9 @@ export const Hero = () => {
           <br /> WINTER
           <br />{" "}
           <motion.span
-            animate={{ rotate: [15, -10, 15] }}
+            animate={{ rotate: [20, -15, 20] }}
             transition={{
-              duration: 3,
+              duration: 4,
               repeat: Infinity,
               ease: "easeInOut",
             }}
