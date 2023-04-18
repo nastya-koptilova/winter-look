@@ -63,12 +63,23 @@ export const Carousel = () => {
     ],
   };
   return (
-    <div className="carousel">
+    <motion.div initial={{
+      x: 1000,
+      opacity: 0,
+    }}
+    animate={{
+      x: 0,
+      opacity: 1,
+    }}
+    transition={{
+      delay: 0,
+      duration: 1.5,
+    }} className="carousel">
       <Slider {...settings}>
         {sliderImages.map(({ image, id }) => {
           return <Slide image={image} key={id} />;
         })}
       </Slider>
-    </div>
+    </motion.div>
   );
 };

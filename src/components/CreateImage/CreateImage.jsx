@@ -5,8 +5,19 @@ import s from "./CreateImage.module.scss";
 
 export const CreateImage = () => {
   return (
-    <div className={s.create_container}>
+    <motion.div initial={{
+      x: 1000,
+      opacity: 0,
+    }}
+    animate={{
+      x: 0,
+      opacity: 1,
+    }}
+    transition={{
+      delay: 0,
+      duration: 1.5,
+    }} className={s.create_container}>
       <Create className={s.create_mask}/>
-    </div>
+    </motion.div>
   );
 };

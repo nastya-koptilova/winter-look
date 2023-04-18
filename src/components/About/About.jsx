@@ -5,7 +5,18 @@ import s from "./About.module.scss";
 
 export const About = () => {
   return (
-    <section className={s.about}>
+    <motion.section initial={{
+      x: 1000,
+      opacity: 0,
+    }}
+    animate={{
+      x: 0,
+      opacity: 1,
+    }}
+    transition={{
+      delay: 0,
+      duration: 1.5,
+    }} className={s.about}>
       <div className={s.about__wrapper}>
         <h2 className={s.about__title}>CHOOSE LOOKS</h2>
         <Carousel />
@@ -33,6 +44,6 @@ export const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
