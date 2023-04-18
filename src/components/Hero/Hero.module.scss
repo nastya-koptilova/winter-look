@@ -1,6 +1,13 @@
 .hero {
-  padding-bottom: 135px;
   position: relative;
+  background-image: url("../../../public/assets/images/line.svg");
+  background-repeat: no-repeat;
+}
+
+.hero__wrapper {
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-bottom: 135px;
 }
 
 .hero__title {
