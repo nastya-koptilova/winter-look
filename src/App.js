@@ -1,6 +1,6 @@
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
-import { MainSection } from "./components/MainSection/MainSection";
+import { About } from "./components/About/About";
 import s from './App.module.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className={s.wrapper}>
     <Header/>
     <Hero/>
-    <MainSection/>
+    <About/>
     </div>
   );
 }

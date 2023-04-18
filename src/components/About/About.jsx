@@ -1,18 +1,15 @@
 import React from "react";
-import { Caurousel } from "../Slider/Slider";
+import { Carousel } from "../Carousel/Carousel";
+import s from "./About.module.scss";
 
-
-export const MainSection = () => {
-  var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+export const About = () => {
   return (
-    <>
-      <section>
-        <h2>CHOOSE LOOKS</h2>
-        <Caurousel />
-      </section>
-      <section>
-        <h2>MORE ABOUT US</h2>
-        <p>
+    <section className={s.about}>
+      <div className={s.about__wrapper}>
+        <h2 className={s.about__title}>CHOOSE LOOKS</h2>
+        <Carousel />
+        <h2 className={s.about__title}>MORE ABOUT US</h2>
+        <p className={s.about__descr}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed enim
           sed libero commodo efficitur. Suspendisse et lorem ac neque dictum
           pellentesque nec sit amet nisl. Fusce rutrum quis purus ut pretium.
@@ -22,7 +19,7 @@ export const MainSection = () => {
           justo in pulvinar convallis. Curabitur dapibus ut tellus eu
           condimentum. Morbi vitae convallis purus, ac finibus ipsum.
         </p>
-        <p>
+        <p className={s.about__descr}>
           Suspendisse nec pharetra turpis. Aenean id nunc id orci aliquam
           pulvinar eget vitae nisl. In ligula neque, vestibulum vel arcu eu,
           eleifend vestibulum tortor. Duis facilisis, est et aliquam dapibus,
@@ -32,7 +29,7 @@ export const MainSection = () => {
           Donec a nibh molestie, aliquam libero maximus, feugiat velit.
           Curabitur ac accumsan velit. In hac habitasse platea dictumst.
         </p>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
