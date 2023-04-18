@@ -5,6 +5,18 @@
   margin-bottom: 45px;
   padding-left: 92px;
   padding-right: 92px;
+
+  @media screen and (max-width: 665px) {
+    gap: 250px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  @media screen and (max-width: 565px) {
+    gap: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .header__logo {
@@ -20,6 +32,14 @@
 .header__nav {
   display: flex;
   gap: 105px;
+
+  @media screen and (max-width: 1200px) {
+    gap: 80px;
+  }
+
+  @media screen and (max-width: 995px) {
+    gap: 40px;
+  }
 
   & a {
     font-weight: 400;
@@ -38,6 +58,11 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
 
+  @media screen and (max-width: 995px) {
+    width: 86px;
+    height: 86px;
+  }
+
   & p {
     font-family: "Oswald";
     text-transform: uppercase;
@@ -50,5 +75,29 @@
     top: 50%;
     left: 50%;
     transform: rotate(19.5deg) translate(-61%, -31%);
+
+    @media screen and (max-width: 995px) {
+      font-size: 28px;
+    line-height: 40px;
+    }
   }
+}
+
+.menu_button {
+  position: relative;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 884px) {
+    margin-right: 11px;
+  }
+}
+
+.menu_button__close {
+  width: 44px;
+  height: 44px;
 }

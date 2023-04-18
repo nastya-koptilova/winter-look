@@ -1,0 +1,87 @@
+.modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 85px 28px 20px 28px;
+  background-color: #ffffff;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform 450ms ease;
+  transition: -webkit-transform 450ms ease;
+  -o-transition: transform 450ms ease;
+  transition: transform 450ms ease;
+  transition: transform 450ms ease, -webkit-transform 450ms ease;
+}
+
+.modal_transition {
+  -webkit-transform: translateX(-200%);
+  -ms-transform: translateX(-200%);
+  transform: translateX(-200%);
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 80px;
+  margin-bottom: 50px;
+  & a {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 117.7%;
+
+    color: #000000;
+
+    @media screen and (max-width: 720px) {
+      font-size: 40px;
+    }
+  }
+}
+
+.header__buy {
+  position: relative;
+  width: 126px;
+  height: 126px;
+  background: #f54329;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+
+  @media screen and (max-width: 720px) {
+    width: 106px;
+    height: 106px;
+  }
+
+  & p {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(19.5deg) translate(-61%, -31%);
+
+    @media screen and (max-width: 720px) {
+        font-size: 36px;
+    line-height: 40px;
+      }
+  }
+}

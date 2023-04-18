@@ -1,6 +1,19 @@
 .app {
   position: relative;
   margin-bottom: 335px;
+
+  @media screen and (max-width: 1120px) {
+    margin-bottom: 630px;
+  }
+
+  @media screen and (max-width: 720px) {
+   align-self: flex-end;
+   margin-bottom: 746px;
+  }
+
+  @media screen and (max-width: 565px) {
+    margin-bottom: 46px;
+  }
 }
 
 .app_apple,

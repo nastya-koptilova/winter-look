@@ -9,10 +9,32 @@
   background-repeat: no-repeat;
   background-position: bottom -22px right -135px;
 
+  @media screen and (max-width: 1120px) {
+    left: 30%;
+  }
+
+  @media screen and (max-width: 720px) {
+    top: 111px;
+    left: 15%;
+  }
+
+  @media screen and (max-width: 665px) {
+    top: 111px;
+    left: 8%;
+  }
+
+  @media screen and (max-width: 565px) {
+    display: none;
+  }
+
   & div {
     position: absolute;
     top: -2px;
     left: 50%;
+
+    @media screen and (max-width: 1120px) {
+      left: 30%;
+    }
   }
 }
 

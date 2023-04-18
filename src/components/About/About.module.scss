@@ -1,6 +1,16 @@
 .about {
   padding-left: 92px;
   padding-right: 92px;
+
+  @media screen and (max-width: 665px) {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  @media screen and (max-width: 565px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .about__wrapper {
@@ -20,6 +30,11 @@
   margin-bottom: 60px;
 
   color: #000000;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
 }
 
 .about__descr_container {

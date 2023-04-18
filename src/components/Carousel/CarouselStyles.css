@@ -27,3 +27,10 @@
 .slick-next {
   background-image: url("../../../public/assets/images/arrow-next.svg") !important;
 }
+
+@media screen and (max-width: 565px) {
+  .slick-arrow {
+    width: 56px !important;
+    height: 56px !important;
+  }
+}
