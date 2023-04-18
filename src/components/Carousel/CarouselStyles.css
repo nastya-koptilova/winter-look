@@ -35,11 +35,11 @@
   }
 }
 
-.slick-arrow::before, ::after {
+.slick-arrow::before, .slick-arrow::after {
   display: none !important;
 }
 
 .slick-arrow:hover,
-:focus {
+.slick-arrow:focus {
   background-color: #efeff0 !important;
 }
