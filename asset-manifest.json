@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/winter-look/static/css/main.18ce0be3.css",
+    "main.js": "/winter-look/static/js/main.fc75293d.js",
+    "static/js/787.38b7149b.chunk.js": "/winter-look/static/js/787.38b7149b.chunk.js",
+    "static/media/create-image.jpg": "/winter-look/static/media/create-image.5474976ce174b62cb5c1.jpg",
+    "static/media/slider-girl.jpg": "/winter-look/static/media/slider-girl.99ea6c904a7153207224.jpg",
+    "static/media/slider-shirt.jpg": "/winter-look/static/media/slider-shirt.e46b13022f1864f516ab.jpg",
+    "static/media/slider-foot.jpg": "/winter-look/static/media/slider-foot.45aed80bdd6319e20423.jpg",
+    "static/media/slider-shoes.jpg": "/winter-look/static/media/slider-shoes.e5c4a413a9a3a24c1100.jpg",
+    "static/media/slider-forest.jpg": "/winter-look/static/media/slider-forest.4cf3072569db60bb9100.jpg",
+    "static/media/create.svg": "/winter-look/static/media/create.7f75c603509402f6ff3e9ac9270e4728.svg",
+    "static/media/android-icon.svg": "/winter-look/static/media/android-icon.d694868929d64055302d.svg",
+    "static/media/apple-icon.svg": "/winter-look/static/media/apple-icon.1b6f303dc88f4ef27c29.svg",
+    "static/media/slick.svg": "/winter-look/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/winter-look/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/winter-look/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/winter-look/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/line.svg": "/winter-look/static/media/line.8fc8d004b224a9feb645.svg",
+    "index.html": "/winter-look/index.html",
+    "static/media/arrow-prev.svg": "/winter-look/static/media/arrow-prev.ae6a7f9ad15d12dc1ac0.svg",
+    "static/media/arrow-next.svg": "/winter-look/static/media/arrow-next.b934d42c856b7e3d597e.svg",
+    "static/media/close.svg": "/winter-look/static/media/close.a87539c994eca2ed42a07aac5917d561.svg",
+    "static/media/burger.svg": "/winter-look/static/media/burger.484334783d1ba7fe3afdae87720f5aa2.svg",
+    "main.18ce0be3.css.map": "/winter-look/static/css/main.18ce0be3.css.map",
+    "main.fc75293d.js.map": "/winter-look/static/js/main.fc75293d.js.map",
+    "787.38b7149b.chunk.js.map": "/winter-look/static/js/787.38b7149b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ce0be3.css",
+    "static/js/main.fc75293d.js"
+  ]
+}
